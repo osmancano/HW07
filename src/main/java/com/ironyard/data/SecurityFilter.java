@@ -10,7 +10,7 @@ import java.io.IOException;
  * Created by osmanidris on 1/17/17.
  */
 
-@WebFilter(filterName = "SecurityFilter", urlPatterns = {"/home.jsp","/index.jsp"})
+@WebFilter(filterName = "SecurityFilter", urlPatterns = {"/home.jsp","/index.jsp","/generateTicket","/generateWinningTicket"})
 public class SecurityFilter implements Filter {
     public void destroy() {
     }
